@@ -28,6 +28,42 @@
                     </span>
                 </button>
             </div>
+            <input type="number" placeholder="Enter the number of characters" id="length">
+            <div class="pass-settings">
+                <label class="title">Password settings</label>
+                <br>
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="lowercase" onclick="checks()">
+                        <label for="lowercase">Lowercase (a-z)</label>
+                    </li>
+
+                    <li class="option">
+                        <input type="checkbox" id="uppercase" onclick="checks()">
+                        <label for="uppercase">Uppercase (A-Z)</label>
+                    </li>
+
+                    <li class="option">
+                        <input type="checkbox" id="numbers" onclick="checks()">
+                        <label for="numbers">Numbers (0-9)</label>
+                    </li>
+
+                    <li class="option">
+                        <input type="checkbox" id="symbols" onclick="checks()">
+                        <label for="symbols">Symbols (!-$^+)</label>
+                    </li>
+
+                    <li class="option">
+                        <input type="checkbox" id="execDuplicates" onclick="checks()">
+                        <label for="execDuplicates">Exclude Duplicate</label>
+                    </li>
+
+                    <li class="option">
+                        <input type="checkbox" id="spaces" onclick="checks()">
+                        <label for="spaces">Include spaces</label>
+                    </li>
+                </ul>
+            </div>
             <button class="gen" onclick="generate()">Generate password</button>
         </div>
     </center>

@@ -1,6 +1,9 @@
 body {
     background-color: lightblue;
     font-family: 'PT Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .material-symbols-outlined {
@@ -39,12 +42,45 @@ body {
 .gen {
     margin-top: 15px;
     height: 40px;
-    font-size: 15px;
-    background-color: rgb(69, 235, 69);
+    font-size: 18px;
+    background-color: rgb(67, 243, 67);
+    border-radius: 15px;
 }
 
 #pwd {
     height: 40px;
     width: 350px;
     font-size: 20px;
+    margin-right: 10px;
 }
+
+#length{
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+input[type='checkbox']{
+    width:30px;
+    height: 20px;
+}
+
+.pass-settings{
+    text-align: left;
+}
+
+.title{
+    float:left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.options{
+    list-style-type: none;
+}
+
+.option{
+    font-size: 20px;
+}
+
