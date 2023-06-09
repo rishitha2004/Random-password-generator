@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+    margin-left: 10px;
+    height: 15px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+}
+
+.copy button {
+    background-color: #4285F4;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+}
+
+.gen {
+    margin-top: 15px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(69, 235, 69);
+}
+
+#pwd {
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+}
